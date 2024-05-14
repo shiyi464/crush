@@ -105,7 +105,7 @@ function getRandom(option: string) {
         case 'fny':
             random = 1.5 + Math.random() * 0.7
             ret = function (x: number, y: number) {
-                console.log(x)
+                x;
                 return y + random;
             };
             break;
