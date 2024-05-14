@@ -52,7 +52,7 @@
 
   .sider1{
     --s:100px;
-    opacity: .3;
+    opacity: .2;
     --sw:calc(var(--w) + var(--s));
     width: var(--sw);
     height: var(--sw);
@@ -63,7 +63,7 @@
     --l:150px;
     .sider1{
       --wy:80px;
-      opacity: .8;
+      opacity: .7;
       left: calc(0px - var(--s) / 2 - var(--wy) / 2);
       top: calc(0px - var(--s) / 2 - var(--wy) / 2);
       width:calc(var(--sw) + var(--wy));
@@ -85,46 +85,46 @@
 
 .front {
   transform: rotateY(0deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/4.jpg");
   background-size: cover;
 }
 
 .front1 {
   transform: rotateY(0deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/4.jpg");
   background-size: cover;
 }
 
 .back {
   transform: rotateY(180deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/1.jpg");
   background-size: cover;
 }
 .back1 {
   transform: rotateY(180deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/1.jpg");
   background-size: cover;
 }
 
 .left {
   transform: rotateY(90deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/2.jpg");
   background-size: cover;
 }
 .left1 {
   transform: rotateY(90deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/2.jpg");
   background-size: cover;
 }
 
 .right {
   transform: rotateY(-90deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/3.jpg");
   background-size: cover;
 }
 .right1 {
   transform: rotateY(-90deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/3.jpg");
   background-size: cover;
 }
 
@@ -141,12 +141,12 @@
 
 .bottom {
   transform: rotateX(90deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/5.jpg");
   background-size: cover;
 }
 .bottom1 {
   transform: rotateX(90deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/tz.jpg");
+  background: url("./assets/5.jpg");
   background-size: cover;
 }
 </style>
