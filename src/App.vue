@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import {startSakura} from "./fullScreenFlower.ts"
+startSakura()
 </script>
 
 <template>
