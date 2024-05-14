@@ -85,68 +85,68 @@
 
 .front {
   transform: rotateY(0deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/4.jpg");
+  background: url("@/assets/4.jpg");
   background-size: cover;
 }
 
 .front1 {
   transform: rotateY(0deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/4.jpg");
+  background: url("@/assets/4.jpg");
   background-size: cover;
 }
 
 .back {
   transform: rotateY(180deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/1.jpg");
+  background: url("@/assets/1.jpg");
   background-size: cover;
 }
 .back1 {
   transform: rotateY(180deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/1.jpg");
+  background: url("@/assets/1.jpg");
   background-size: cover;
 }
 
 .left {
   transform: rotateY(90deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/2.jpg");
+  background: url("@/assets/2.jpg");
   background-size: cover;
 }
 .left1 {
   transform: rotateY(90deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/2.jpg");
+  background: url("@/assets/2.jpg");
   background-size: cover;
 }
 
 .right {
   transform: rotateY(-90deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/3.jpg");
+  background: url("@/assets/3.jpg");
   background-size: cover;
 }
 .right1 {
   transform: rotateY(-90deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/3.jpg");
+  background: url("@/assets/3.jpg");
   background-size: cover;
 }
 
 .top {
   transform: rotateX(-90deg) translateZ(calc( var(--w) / 2));
-  background: url("./assets/tz.jpg");
+  background: url("@/assets/tz.jpg");
   background-size: cover;
 }
 .top1 {
   transform: rotateX(-90deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/tz.jpg");
+  background: url("@/assets/tz.jpg");
   background-size: cover;
 }
 
 .bottom {
   transform: rotateX(90deg) translateZ(calc(var(--w) / 2));
-  background: url("./assets/5.jpg");
+  background: url("@/assets/5.jpg");
   background-size: cover;
 }
 .bottom1 {
   transform: rotateX(90deg) translateZ(calc(var(--w) / 2 + var(--l)));
-  background: url("./assets/5.jpg");
+  background: url("@/assets/5.jpg");
   background-size: cover;
 }
 </style>
