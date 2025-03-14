@@ -1,10 +1,20 @@
 <script setup lang="ts">
 import {startSakura} from "./fullScreenFlower.ts"
+import {computed, watch, watchEffect} from "vue";
 startSakura()
+const url = new URL(window.location.href);
+const paramValue = computed(()=>{
+  return url.searchParams.get('url');
+})
+watchEffect(()=>{
+  if (!paramValue.value) startSakura()
+  console.log(paramValue.value)
+})
 </script>
 
 <template>
-  <div class="tv">
+  <img v-if="paramValue" :src="paramValue">
+  <div v-else class="tv">
     <div class="cube">
       <div class="sider front"></div>
       <div class="sider back"></div>
